@@ -1,15 +1,14 @@
-**SKILLS GAINED:**  
+##**SKILLS GAINED**##
 
-Test Automation Framework Design  
-Behavior-Driven Development (BDD)  
-TestNG Configuration and Execution  
-Advanced Reporting with ExtentReports  
-Selenium WebDriver Automation  
-Maven Build and Dependency Management  
-Agile Testing Skills  
-Modularization and Code Reusability  
-API Testing and Configuration  
-Debugging and Issue Resolution  
+* Test Automation Framework Design  
+* Behavior-Driven Development (BDD)  
+* TestNG Configuration and Execution  
+* Advanced Reporting with ExtentReports  
+* Selenium WebDriver Automation  
+* Maven Build and Dependency Management  
+* Agile Testing Skills  
+* Modularization and Code Reusability  
+* Debugging and Issue Resolution  
 
 **Top-Level Directories**
 
@@ -22,28 +21,28 @@ Debugging and Issue Resolution
 **src/main/java**  
  **_meenakshi_Automation_**  
   Contains the following POM Pages  
-    GmailLandingPage  
-    NaukriLandingPage  
-    NaukriOTP  
+   *  GmailLandingPage  
+   *  NaukriLandingPage  
+   *  NaukriOTP  
 
 **_utils_**  
-   Utility  
+  *  Utility  
    Contains reusable functionalities  
 
 **src/test/java**  
 **_meenakshi1_Automation_**  
-  base/  
+ *  base/  
   Handles WebDriver setup and teardown  
   
 **_resources_**  
-config.properties/  
-Login_stepDefinition.feature/  
+* config.properties/  
+* Login_stepDefinition.feature/  
 Cucumber feature file describing Dashboard page scenarios in Gherkin syntax.  
 
 **_stepDefinition_**  
-   **Login_stepDefinition.java/**   
+  *  **Login_stepDefinition.java/**   
    Step definition file containing Cucumber steps for Dashboard-related features.  
-   **runner.java/**   
+  *  **runner.java/**   
    Entry point for executing Cucumber tests using the Cucumber TestNG runner.  
 
 **Key Points of This Structure**  
